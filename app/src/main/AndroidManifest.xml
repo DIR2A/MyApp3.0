@@ -10,11 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:label="@string/about_us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Liked"
+            android:exported="false"
+            android:label="@string/liked"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Catalog"
+            android:exported="false"
+            android:label="@string/catalog"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cart"
+            android:exported="false"
+            android:label="@string/cart"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".Preview"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/preview" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

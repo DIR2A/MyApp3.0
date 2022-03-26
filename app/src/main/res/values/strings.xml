@@ -1,0 +1,83 @@
+<resources>
+
+    <string name="home_text">Home</string>
+    <string name="like_text">Like</string>
+    <string name="search_text">Search</string>
+    <string name="shop_text">Shop</string>
+
+
+    <!--Меню и Поиск-->
+    <string name="app_name">SnowPath</string>
+    <string name="Main">Главная</string>
+    <string name="catalog">Каталог</string>
+    <string name="cart">Корзина</string>
+    <string name="liked">Избранное</string>
+    <string name="about_us">О нас</string>
+    <string name="main_search">Поиск по категориям</string>
+    <string name="catalog_search">Поиск по каталогу</string>
+    <string name="item_search">Поиск по товарам</string>
+    <string name="main_picture">Картинка</string>
+
+
+    <!--Фильтры и Сортировка-->
+    <string name="filters">Фильтры</string>
+    <string name="sort">Сортировка</string>
+    <string name="price">Цена(Р)</string>
+    <string name="size">Размер(см)</string>
+    <string name="color">Цвет</string>
+    <string name="brand">Брэнд</string>
+    <string name="skill_level">Уровень катания</string>
+    <string name="sex">Пол</string>
+    <string name="from">От:</string>
+    <string name="flexion">Прогиб</string>
+    <string name="until">До:</string>
+    <string name="show_results">Показать результаты</string>
+    <string name="cancel">Сбросить</string>
+    <string name="popular_items">Популярные товары</string>
+    <string name="cheap_first_items">Сначала дешевые</string>
+    <string name="expensive_first_items">Сначала дорогие</string>
+    <string name="sale_items">Товары со скидкой</string>
+    <string name="apply_sort">Применить сортировку</string>
+    <string name="apply_filters">Применить фильтры</string>
+
+
+    <!--Категории-->
+    <string name="mount_ski_multiple">Горные лыжи</string>
+    <string name="ski">Лыжи</string>
+    <string name="snowboard_multiple">Сноуборды</string>
+    <string name="snowboard_single">Сноуборд</string>
+    <string name="clothes">Одежда</string>
+    <string name="helmets_masks">Шлемы, маски</string>
+    <string name="helmet_single">Шлем</string>
+    <string name="helmet_multiple">Шлемы</string>
+    <string name="mask_single">Маска</string>
+    <string name="mask_multiple">Маски</string>
+    <string name="accessory_multiple">Аксессуары</string>
+    <string name="accessory_single">Аксессуар</string>
+
+
+    <!--Функциональные-->
+    <string name="add_to_cart">В корзину</string>
+    <string name="add_to_liked">В избранное</string>
+    <string name="go_to_execution">Перейти к оформлению</string>
+    <string name="execute_order">Оформить заказ</string>
+    <string name="call_us">Позвонить нам</string>
+
+
+    <!--Корзина и Оформление-->
+    <string name="enter_user_info">Введите контактные данные</string>
+    <string name="user_name">Имя</string>
+    <string name="user_phone">Телефон</string>
+    <string name="user_email">Email</string>
+    <string name="user_address">Адрес доставки</string>
+    <string name="purchase_price">Стоимость:</string>
+    <string name="delivery_price_detail">Стоимоть доставки:</string>
+    <string name="delivery_price">Доставка:</string>
+    <string name="total_price">Итого:</string>
+    <string name="title_activity_catalog">Catalog</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

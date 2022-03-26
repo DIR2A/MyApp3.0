@@ -10,7 +10,4 @@
         android:state_selected="false"
         android:drawable="@color/item_not_selected"
         android:color="@color/item_not_selected"/>
-
-
-
 </selector>

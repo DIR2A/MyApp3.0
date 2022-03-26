@@ -9,8 +9,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="background">#C4E0F2</color>
-    <color name="item_selected">#03045e</color>
-    <color name="item_not_selected">#023e8a</color>
+    <color name="item_selected">#3d5a80</color>
+    <color name="item_not_selected">#89c2d9</color>
     <color name="functional_item">#89c2d9</color>
     <color name="menu_search">#66FFFFFF</color>
     <color name="trans">#10FFFFFF</color>

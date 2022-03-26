@@ -9,12 +9,10 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="background">#C4E0F2</color>
+    <color name="item_selected">#03045e</color>
+    <color name="item_not_selected">#023e8a</color>
     <color name="functional_item">#89c2d9</color>
     <color name="menu_search">#66FFFFFF</color>
     <color name="trans">#10FFFFFF</color>
-    <color name="light_white">#D2D2D2</color>
-    <color name="card_1">#A3E4D7</color>
-    <color name="card_2">#F9E79F</color>
-    <color name="card_3">#D7BDE2</color>
-    <color name="card_4">#D2C3D8</color>
+
 </resources>

@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/app_navigation"
     app:startDestination="@id/mainActivity">
 
     <activity
         android:id="@+id/mainActivity"
         android:name="com.example.myapp.MainActivity"
-        android:label="MainActivity" />
-
+        android:label="@string/main" />
+    <activity
+        android:id="@+id/aboutUs"
+        android:name="com.example.myapp.AboutUs"
+        android:label="@string/about_us"
+        tools:layout="@layout/activity_about_us" />
+    <activity
+        android:id="@+id/cart"
+        android:name="com.example.myapp.Cart"
+        android:label="@string/cart"
+        tools:layout="@layout/activity_cart" />
+    <activity
+        android:id="@+id/catalog"
+        android:name="com.example.myapp.Catalog"
+        android:label="@string/catalog"
+        tools:layout="@layout/activity_catalog" />
+    <activity
+        android:id="@+id/liked"
+        android:name="com.example.myapp.Liked"
+        android:label="@string/liked"
+        tools:layout="@layout/activity_liked" />
 
 
 </navigation>

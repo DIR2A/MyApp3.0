@@ -51,6 +51,11 @@
     <string name="mask_multiple">Маски</string>
     <string name="accessory_multiple">Аксессуары</string>
     <string name="accessory_single">Аксессуар</string>
+    
+    <!--Каталог Сноуборды-->
+    <string name="snowboard_fixture">Крепления</string>
+    <string name="snowboard_boots">Ботинки</string>
+    <string name="snowboard_protection">Защита</string>
 
 
     <!--Функциональные-->

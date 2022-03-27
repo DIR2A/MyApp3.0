@@ -1,9 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Catalog_Snowboards">
+    tools:context=".Catalog_Snowboards"
+    android:background="@drawable/main_bg">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view_catalog_snowboards"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_text_view"
+        app:iconifiedByDefault="false"
+        app:queryHint="@string/catalog_search">
+
+
+    </androidx.appcompat.widget.SearchView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="57dp"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card_view_snowboards"
+                android:layout_marginBottom="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/item_catalog_snowboards"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_centerVertical="true"
+                        android:text="@string/snowboard_multiple"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                        tools:ignore="RelativeOverlap" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_alignParentEnd="true"
+                        android:contentDescription="@string/snowboard_multiple"
+                        android:src="@drawable/ex_snowboards_catalog" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card_view_snowboard_fixture"
+                android:layout_marginBottom="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/item_catalog_snowboard_fixture"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_centerVertical="true"
+                        android:text="@string/snowboard_fixture"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                        tools:ignore="RelativeOverlap" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentEnd="true"
+                        android:contentDescription="@string/snowboard_fixture"
+                        android:src="@drawable/snowboard_fixture_catalog" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card_view_snowboard_boots"
+                android:layout_marginBottom="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/item_catalog_snowboard_boots"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="60dp"
+                        android:text="@string/snowboard_boots"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                        tools:ignore="RelativeOverlap" />
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentEnd="true"
+                        android:contentDescription="@string/snowboard_boots"
+                        android:src="@drawable/snowboard_boots_catalog" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card_view_snowboard_protection"
+                android:layout_marginBottom="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/item_catalog_snowboard_boots_protection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="65dp"
+                        android:text="@string/snowboard_protection"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                        tools:ignore="RelativeOverlap" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentEnd="true"
+                        android:contentDescription="@string/snowboard_protection"
+                        android:src="@drawable/snowboard_protection_catalog" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BottomNavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/search_text_view"
+        app:itemIconTint="@drawable/menu_item_selector"
+        app:itemTextColor="@drawable/menu_item_selector"
+        app:menu="@menu/bottom_navigation" >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

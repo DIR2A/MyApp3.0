@@ -7,17 +7,38 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import androidx.cardview.widget.CardView;
+
+import android.view.View;
+import android.view.View.OnClickListener;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Catalog extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
+    CardView cardViewSnowboards;
+    CardView cardViewSki;
+    CardView cardViewClothes;
+    CardView cardViewHelmets;
+    CardView cardViewAccessories;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalog);
 
+        cardViewSnowboards = (CardView)findViewById(R.id.card_view_snowboards);
+        cardViewSki = (CardView)findViewById(R.id.card_view_skis);
+        cardViewClothes = (CardView)findViewById(R.id.card_view_clothes);
+        cardViewHelmets = (CardView)findViewById(R.id.card_view_helmets);
+        cardViewAccessories = (CardView)findViewById(R.id.card_view_accessories);
+
+
+        cardViewSnowboards.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openCatalogSnowboards();
+            }
+        });
 
 
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
@@ -53,5 +74,11 @@ public class Catalog extends AppCompatActivity {
                 return false;
             }
         });
+
     }
+    public void openCatalogSnowboards() {
+        Intent intent = new Intent(this,Catalog_Snowboards.class);
+        startActivity(intent);
+    }
+
 }

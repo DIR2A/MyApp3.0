@@ -3,7 +3,7 @@
     <string name="app_name">SnowPath</string>
     <string name="main">Главная</string>
     <string name="preview">Превью</string>
-
+    <string name="about_us_description_text">SnowPath</string>
 
     <!--Меню и Поиск-->
     <string name="catalog">Каталог</string>
@@ -77,4 +77,11 @@
     <string name="title_notifications">Notifications</string>
 
 
+    <!--О нас-->
+    <string name="description_about_us">SnowPath — это настоящий бренд эксперт в зимнем спорте и активном отдыхе, который вдохновляет своих покупателей, мотивирует их и помогает регулярно выбираться в горы, чтобы радоваться жизни и менять себя к лучшему день за днем!</string>
+    <string name="info_about_us">ООО “Cноу Пас”</string>
+    <string name="address_about_us">Юридический адрес:	117437,г. Москва, ул. Миклухо-Маклая, д. 18 к. 2 ком. 102</string>
+    <string name="phone_about_us">Телефон: +7 (495) 755 81 79</string>
+    <string name="email_about_us">E-mail: support@snowpath.ru</string>
+    <string name="me_about_us">Проект выполнил студент группы ИНБО–02–20 Горбунов Я. А.</string>
 </resources>

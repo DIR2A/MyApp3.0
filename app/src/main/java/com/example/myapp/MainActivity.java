@@ -55,6 +55,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonTagClothes.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openCatalogClothes();
+            }
+        });
+
+        buttonTagHelmetsMasks.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openCatalogHelmets();
+            }
+        });
+
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.mainActivity);
 
@@ -99,6 +111,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openCatalogSnowboards(){
         Intent intent = new Intent(this, CatalogSnowboards.class);
+        startActivity(intent);
+    }
+    public void openCatalogClothes(){
+        Intent intent = new Intent(this, CatalogClothes.class);
+        startActivity(intent);
+    }
+    public void openCatalogHelmets(){
+        Intent intent = new Intent(this, CatalogHelmetsMasks.class);
         startActivity(intent);
     }
 

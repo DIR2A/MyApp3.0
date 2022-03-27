@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CatalogSki"
+    tools:context=".CatalogHelmetsMasks"
     android:background="@drawable/main_bg">
 
     <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_view_catalog_ski"
+        android:id="@+id/search_view_catalog_helmets"
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
@@ -39,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_skis"
+                android:id="@+id/card_view_masks_masks"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true">
@@ -52,12 +53,12 @@
                     android:paddingBottom="10dp">
 
                     <TextView
-                        android:id="@+id/item_catalog_ski_skis"
+                        android:id="@+id/item_catalog_masks_masks"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="50dp"
-                        android:text="@string/mount_ski_multiple"
+                        android:text="@string/masks_masks"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
                         tools:ignore="RelativeOverlap" />
 
@@ -65,8 +66,8 @@
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_skis_catalog" />
+                        android:contentDescription="@string/masks_masks"
+                        android:src="@drawable/helmets_masks_catalog" />
 
 
                 </RelativeLayout>
@@ -78,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_boots"
+                android:id="@+id/card_view_masks_helmets"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true">
@@ -91,12 +92,12 @@
                     android:paddingBottom="10dp">
 
                     <TextView
-                        android:id="@+id/item_catalog_ski_boots"
-                        android:layout_width="150dp"
+                        android:id="@+id/item_catalog_masks_helmets"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="50dp"
                         android:layout_centerVertical="true"
-                        android:text="@string/ski_boots"
+                        android:layout_marginStart="50dp"
+                        android:text="@string/masks_helmets"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
                         tools:ignore="RelativeOverlap" />
 
@@ -104,8 +105,8 @@
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/ski_boots"
-                        android:src="@drawable/ski_boots_catalog" />
+                        android:contentDescription="@string/masks_helmets"
+                        android:src="@drawable/ex_helmets_catalog" />
 
 
                 </RelativeLayout>
@@ -117,7 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_sticks"
+                android:id="@+id/card_view_masks_accessories"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true"
@@ -131,61 +132,21 @@
                     android:paddingBottom="10dp">
 
                     <TextView
-                        android:id="@+id/item_catalog_ski_sticks"
+                        android:id="@+id/item_catalog_masks_accessories"
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="50dp"
-                        android:text="@string/ski_sticks"
+                        android:text="@string/masks_accessories"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
-                        android:layout_width="155dp"
+                        android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/ski_sticks"
-                        android:src="@drawable/ski_sticks_catalog" />
-
-
-                </RelativeLayout>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_fixture"
-                android:layout_marginBottom="10dp"
-                android:clickable="true"
-                android:focusable="true"
-                >
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="?selectableItemBackgroundBorderless"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp">
-
-                    <TextView
-                        android:id="@+id/item_catalog_ski_fixture"
-                        android:layout_width="150dp"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginStart="50dp"
-                        android:text="@string/ski_fixture"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
-                        tools:ignore="RelativeOverlap" />
-
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/ski_fixture"
-                        android:src="@drawable/ski_fixture_catalog" />
+                        android:contentDescription="@string/masks_accessories"
+                        android:src="@drawable/helmets_accessories" />
 
 
                 </RelativeLayout>
@@ -209,6 +170,5 @@
         app:itemTextColor="@drawable/menu_item_selector"
         app:menu="@menu/bottom_navigation" >
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
 
 </RelativeLayout>

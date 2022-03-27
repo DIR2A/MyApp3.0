@@ -45,6 +45,18 @@ public class Catalog extends AppCompatActivity {
             }
         });
 
+        cardViewClothes.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openCatalogClothes();
+            }
+        });
+
+        cardViewHelmets.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openCatalogHelmets();
+            }
+        });
+
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.catalog);
 
@@ -86,6 +98,14 @@ public class Catalog extends AppCompatActivity {
     }
     public void openCatalogSki() {
         Intent intent = new Intent(this, CatalogSki.class);
+        startActivity(intent);
+    }
+    public void openCatalogClothes() {
+        Intent intent = new Intent(this, CatalogClothes.class);
+        startActivity(intent);
+    }
+    public void openCatalogHelmets() {
+        Intent intent = new Intent(this, CatalogHelmetsMasks.class);
         startActivity(intent);
     }
 

@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CatalogSki"
+    tools:context=".CatalogClothes"
     android:background="@drawable/main_bg">
 
     <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_view_catalog_ski"
+        android:id="@+id/search_view_catalog_clothes"
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_skis"
+                android:id="@+id/card_view_clothes_jackets"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true">
@@ -52,12 +52,12 @@
                     android:paddingBottom="10dp">
 
                     <TextView
-                        android:id="@+id/item_catalog_ski_skis"
+                        android:id="@+id/item_catalog_clothes_jackets"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="50dp"
-                        android:text="@string/mount_ski_multiple"
+                        android:text="@string/clothes_jackets"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
                         tools:ignore="RelativeOverlap" />
 
@@ -65,8 +65,8 @@
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_skis_catalog" />
+                        android:contentDescription="@string/clothes_jackets"
+                        android:src="@drawable/ex_clothes_catalog" />
 
 
                 </RelativeLayout>
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_boots"
+                android:id="@+id/card_view_clothes_hoodies"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true">
@@ -91,12 +91,12 @@
                     android:paddingBottom="10dp">
 
                     <TextView
-                        android:id="@+id/item_catalog_ski_boots"
-                        android:layout_width="150dp"
+                        android:id="@+id/item_catalog_clothes_hoodies"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="50dp"
                         android:layout_centerVertical="true"
-                        android:text="@string/ski_boots"
+                        android:layout_marginStart="50dp"
+                        android:text="@string/clothes_hoodies"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
                         tools:ignore="RelativeOverlap" />
 
@@ -104,8 +104,8 @@
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/ski_boots"
-                        android:src="@drawable/ski_boots_catalog" />
+                        android:contentDescription="@string/clothes_hoodies"
+                        android:src="@drawable/clothes_hoodies_catalog" />
 
 
                 </RelativeLayout>
@@ -117,7 +117,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_sticks"
+                android:id="@+id/card_view_clothes_trousers"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true"
@@ -131,21 +131,21 @@
                     android:paddingBottom="10dp">
 
                     <TextView
-                        android:id="@+id/item_catalog_ski_sticks"
-                        android:layout_width="150dp"
+                        android:id="@+id/item_catalog_clothes_trousers"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginStart="50dp"
-                        android:text="@string/ski_sticks"
+                        android:layout_marginStart="60dp"
+                        android:text="@string/clothes_trousers"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
-                        android:layout_width="155dp"
+                        android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/ski_sticks"
-                        android:src="@drawable/ski_sticks_catalog" />
+                        android:contentDescription="@string/clothes_trousers"
+                        android:src="@drawable/clothes_trousers_catalog" />
 
 
                 </RelativeLayout>
@@ -157,7 +157,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_ski_fixture"
+                android:id="@+id/card_view_clothes_rompers"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true"
@@ -171,21 +171,61 @@
                     android:paddingBottom="10dp">
 
                     <TextView
-                        android:id="@+id/item_catalog_ski_fixture"
-                        android:layout_width="150dp"
+                        android:id="@+id/item_catalog_clothes_rompers"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="50dp"
-                        android:text="@string/ski_fixture"
+                        android:text="@string/clothes_rompers"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
-                        android:layout_width="150dp"
+                        android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/ski_fixture"
-                        android:src="@drawable/ski_fixture_catalog" />
+                        android:contentDescription="@string/clothes_rompers"
+                        android:src="@drawable/clothes_rompers_catalog" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card_view_clothes_layered"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/item_catalog_clothes_layered"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="50dp"
+                        android:text="@string/clothes_layered"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                        tools:ignore="RelativeOverlap" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentEnd="true"
+                        android:contentDescription="@string/clothes_layered"
+                        android:src="@drawable/clothes_layered_catalog" />
 
 
                 </RelativeLayout>
@@ -209,6 +249,5 @@
         app:itemTextColor="@drawable/menu_item_selector"
         app:menu="@menu/bottom_navigation" >
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
 
 </RelativeLayout>

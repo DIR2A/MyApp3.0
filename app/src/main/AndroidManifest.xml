@@ -10,10 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".CatalogHelmetsMasks"
+            android:exported="false"
+            android:label="@string/helmets_masks"
+            android:parentActivityName=".Catalog"/>
+        <activity
+            android:name=".CatalogClothes"
+            android:exported="false"
+            android:label="@string/clothes"
+            android:parentActivityName=".Catalog" />
+        <activity
             android:name=".CatalogSki"
+            android:exported="false"
             android:label="@string/mount_ski_multiple"
-            android:parentActivityName=".Catalog"
-            android:exported="false" />
+            android:parentActivityName=".Catalog" />
         <activity
             android:name=".CatalogSnowboards"
             android:exported="false"
@@ -22,27 +32,23 @@
         <activity
             android:name=".AboutUs"
             android:exported="false"
-            android:label="@string/about_us"
-            android:parentActivityName=".MainActivity" />
+            android:label="@string/about_us" />
         <activity
             android:name=".Liked"
             android:exported="false"
-            android:label="@string/liked"
-            android:parentActivityName=".MainActivity" />
+            android:label="@string/liked" />
         <activity
             android:name=".Catalog"
             android:exported="false"
-            android:label="@string/catalog"
-            android:parentActivityName=".MainActivity" />
+            android:label="@string/catalog" />
         <activity
             android:name=".Cart"
             android:exported="false"
-            android:label="@string/cart"
-            android:parentActivityName=".MainActivity" />
+            android:label="@string/cart" />
         <activity
             android:name=".Preview"
             android:exported="false"
-            android:label="@string/preview" />
+            android:theme="@style/Theme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -34,7 +34,9 @@
                     android:layout_width="170dp"
                     android:layout_height="150dp"
                     android:layout_centerHorizontal="true"
+                    android:clickable="true"
                     android:contentDescription="@string/snowboard_multiple"
+                    android:focusable="true"
                     android:src="@drawable/logo" />
 
                 <TextView

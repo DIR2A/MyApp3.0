@@ -62,7 +62,22 @@
     <string name="ski_fixture">Горнолыжные крепления</string>
     <string name="ski_sticks">Горнолыжные палки</string>
 
+    <!--Каталог Одежда-->
+    <string name="clothes_trousers">Брюки</string>
+    <string name="clothes_jackets">Куртки</string>
+    <string name="clothes_layered">Термобелье</string>
+    <string name="clothes_rompers">Комбинезоны</string>
+    <string name="clothes_hoodies">Толстовки</string>
 
+    <!--Каталог Маски и Шлемы-->
+    <string name="masks_masks">Маски</string>
+    <string name="masks_helmets">Шлемы</string>
+    <string name="masks_accessories">Аксессуары и запчасти</string>
+
+    <!--Каталог Аксессуары-->
+    <string name="accessories_backpack">Рюкзаки</string>
+    <string name="accessories_bags">Сумки</string>
+    <string name="accessories_cases">Чехлы</string>
 
     <!--Функциональные-->
     <string name="add_to_cart">В корзину</string>

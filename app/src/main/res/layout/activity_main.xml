@@ -39,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/functional_item"
-
+            android:clickable="true"
+            android:focusable="true"
             android:fontFamily="@font/noto_sans"
 
             android:text="@string/catalog"
@@ -52,7 +53,8 @@
             app:iconGravity="start"
             app:iconPadding="5dp"
             app:iconSize="25dp"
-            app:iconTint="@color/black" />
+            app:iconTint="@color/black"
+             />
 
         <Button
             android:id="@+id/button_tag_ski"
@@ -63,6 +65,8 @@
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:backgroundTint="@color/functional_item"
+            android:clickable="true"
+            android:focusable="true"
 
             android:fontFamily="@font/noto_sans"
 
@@ -84,11 +88,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-
+            android:clickable="true"
+            android:focusable="true"
             android:backgroundTint="@color/functional_item"
 
             android:fontFamily="@font/noto_sans"
-
             android:text="@string/snowboard_multiple"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/black"
@@ -110,9 +114,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:backgroundTint="@color/functional_item"
+            android:clickable="true"
+            android:focusable="true"
 
             android:fontFamily="@font/noto_sans"
-
             android:text="@string/clothes"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/black"
@@ -133,9 +138,10 @@
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:backgroundTint="@color/functional_item"
+            android:clickable="true"
+            android:focusable="true"
 
             android:fontFamily="@font/noto_sans"
-
             android:text="@string/helmets_masks"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/black"
@@ -155,9 +161,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/functional_item"
+            android:clickable="true"
+            android:focusable="true"
 
             android:fontFamily="@font/noto_sans"
-
             android:text="@string/accessory_multiple"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/black"

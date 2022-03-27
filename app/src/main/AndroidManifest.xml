@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
-            android:name=".Catalog_Snowboards"
-            android:label="@string/snowboard_single"
+            android:name=".CatalogSki"
+            android:label="@string/mount_ski_multiple"
             android:parentActivityName=".Catalog"
             android:exported="false" />
+        <activity
+            android:name=".CatalogSnowboards"
+            android:exported="false"
+            android:label="@string/snowboard_single"
+            android:parentActivityName=".Catalog" />
         <activity
             android:name=".AboutUs"
             android:exported="false"
@@ -40,8 +45,7 @@
             android:label="@string/preview" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

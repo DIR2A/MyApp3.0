@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import androidx.cardview.widget.CardView;
 
 import android.view.View;
-import android.view.View.OnClickListener;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Catalog extends AppCompatActivity {
@@ -33,13 +33,17 @@ public class Catalog extends AppCompatActivity {
         cardViewHelmets = (CardView)findViewById(R.id.card_view_helmets);
         cardViewAccessories = (CardView)findViewById(R.id.card_view_accessories);
 
-
         cardViewSnowboards.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                openCatalogSnowboards();
-            }
+                        openCatalogSnowboards();
+                }
         });
 
+        cardViewSki.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openCatalogSki();
+            }
+        });
 
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.catalog);
@@ -77,7 +81,11 @@ public class Catalog extends AppCompatActivity {
 
     }
     public void openCatalogSnowboards() {
-        Intent intent = new Intent(this,Catalog_Snowboards.class);
+        Intent intent = new Intent(this, CatalogSnowboards.class);
+        startActivity(intent);
+    }
+    public void openCatalogSki() {
+        Intent intent = new Intent(this, CatalogSki.class);
         startActivity(intent);
     }
 

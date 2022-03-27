@@ -9,14 +9,14 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Catalog_Snowboards extends AppCompatActivity {
+public class CatalogSki extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_catalog_snowboards);
+        setContentView(R.layout.activity_catalog_ski);
 
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.catalog);

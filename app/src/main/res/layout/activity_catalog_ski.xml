@@ -62,11 +62,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_ski_skis"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_skis_catalog" />
+                        />
 
 
                 </RelativeLayout>
@@ -101,11 +102,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_ski_boots"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/ski_boots"
-                        android:src="@drawable/ski_boots_catalog" />
+                        />
 
 
                 </RelativeLayout>
@@ -141,11 +143,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_ski_sticks"
                         android:layout_width="155dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/ski_sticks"
-                        android:src="@drawable/ski_sticks_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -181,11 +184,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_ski_fixture"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/ski_fixture"
-                        android:src="@drawable/ski_fixture_catalog" />
+                         />
 
 
                 </RelativeLayout>

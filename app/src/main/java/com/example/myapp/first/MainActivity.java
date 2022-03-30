@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity {
                 "2.appspot.com/o/main_ads%2FnideckerSnowboards.jpg?alt=media&tok" +
                 "en=8f9b5f19-b41b-409a-b455-5ecb37faf911";
 
-        String url3="https://firebasestorage.googleapis.com/v0/b/snowpath-3" +
-                "c582.appspot.com/o/main_ads%2FadsCapita.jpg?alt=media&token=26" +
-                "abe72e-1118-4070-919f-f75b720e68bd";
+        String url3="https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.a" +
+                "ppspot.com/o/main_ads%2FadsCapita.jpg?alt=media&token=5c9ff81a-fe" +
+                "46-4266-bce9-860fa49c0f61";
 
         String url4="https://firebasestorage.googleapis.com/v0/b/snowpath-3" +
                 "c582.appspot.com/o/main_ads%2FhmMan.jpeg?alt=media&token=66a" +

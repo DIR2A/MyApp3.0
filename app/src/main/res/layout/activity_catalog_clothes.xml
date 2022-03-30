@@ -62,11 +62,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_clothes_jackets"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/clothes_jackets"
-                        android:src="@drawable/ex_clothes_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -101,11 +102,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_clothes_hoodies"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/clothes_hoodies"
-                        android:src="@drawable/clothes_hoodies_catalog" />
+                        />
 
 
                 </RelativeLayout>
@@ -141,11 +143,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_clothes_trousers"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/clothes_trousers"
-                        android:src="@drawable/clothes_trousers_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -181,11 +184,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_clothes_rompers"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/clothes_rompers"
-                        android:src="@drawable/clothes_rompers_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -221,11 +225,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_clothes_layered"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/clothes_layered"
-                        android:src="@drawable/clothes_layered_catalog" />
+                         />
 
 
                 </RelativeLayout>

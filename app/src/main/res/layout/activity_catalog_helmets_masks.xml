@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_masks_masks"
+                android:id="@+id/card_view_hm_masks"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true">
@@ -63,11 +63,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_hm_masks"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/masks_masks"
-                        android:src="@drawable/helmets_masks_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -79,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_masks_helmets"
+                android:id="@+id/card_view_hm_helmets"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true">
@@ -102,11 +103,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_hm_helmets"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/masks_helmets"
-                        android:src="@drawable/ex_helmets_catalog" />
+                        />
 
 
                 </RelativeLayout>
@@ -118,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/card_view_masks_accessories"
+                android:id="@+id/card_view_hm_accessories"
                 android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:focusable="true"
@@ -142,11 +144,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_hm_accessories"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/masks_accessories"
-                        android:src="@drawable/helmets_accessories" />
+                        />
 
 
                 </RelativeLayout>

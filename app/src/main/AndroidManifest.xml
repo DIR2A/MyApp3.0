@@ -50,10 +50,7 @@
             android:name=".first.Cart"
             android:exported="false"
             android:label="@string/cart" />
-        <activity
-            android:name=".additional.Preview"
-            android:exported="false"
-            android:theme="@style/Theme.NoActionBar" />
+
         <activity
             android:name=".first.MainActivity"
             android:exported="true">

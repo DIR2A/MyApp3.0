@@ -64,11 +64,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/view_snowboard_snowboards"
+                        android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_snowboards_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -103,11 +104,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_snowboard_fixture"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_fixture"
-                        android:src="@drawable/snowboard_fixture_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -142,11 +144,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_snowboard_boots"
                         android:layout_width="160dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_boots"
-                        android:src="@drawable/snowboard_boots_catalog" />
+                        />
 
 
                 </RelativeLayout>
@@ -181,11 +184,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_snowboard_protection"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_protection"
-                        android:src="@drawable/snowboard_protection_catalog" />
+                        />
 
 
                 </RelativeLayout>

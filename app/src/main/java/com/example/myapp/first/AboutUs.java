@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
+
 import android.widget.ImageView;
 
-import com.example.myapp.additional.Preview;
+
 import com.example.myapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -28,15 +28,12 @@ public class AboutUs extends AppCompatActivity {
 
         imageView = findViewById(R.id.about_us_logo);
 
-        String url="https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/logo%2Flogo.png?alt=media&token=cce7a1b9-654b-4b95-bf8d-43d0dcdf93d8";
+        String url1="https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.c" +
+                "om/o/logo%2Flogo.png?alt=media&token=cce7a1b9-654b-4b95-bf8d-43d0dcdf93d8";
 
-        Glide.with(getApplicationContext()).load(url).into(imageView);
+        Glide.with(getApplicationContext()).load(url1).into(imageView);
 
-        imageView.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                openPreview();
-            }
-        });
+
 
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.about_us);
@@ -73,9 +70,6 @@ public class AboutUs extends AppCompatActivity {
         });
     }
 
-    public void openPreview(){
-        Intent intent = new Intent(this, Preview.class);
-        startActivity(intent);
-    }
+
 
 }

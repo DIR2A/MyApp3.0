@@ -10,47 +10,52 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
-            android:name=".CatalogHelmetsMasks"
+            android:name=".catalog.CatalogAccessories"
+            android:exported="false"
+            android:label="@string/accessory_multiple"
+            android:parentActivityName=".first.Catalog"/>
+        <activity
+            android:name=".catalog.CatalogHelmetsMasks"
             android:exported="false"
             android:label="@string/helmets_masks"
-            android:parentActivityName=".Catalog"/>
+            android:parentActivityName=".first.Catalog" />
         <activity
-            android:name=".CatalogClothes"
+            android:name=".catalog.CatalogClothes"
             android:exported="false"
             android:label="@string/clothes"
-            android:parentActivityName=".Catalog" />
+            android:parentActivityName=".first.Catalog" />
         <activity
-            android:name=".CatalogSki"
+            android:name=".catalog.CatalogSki"
             android:exported="false"
             android:label="@string/mount_ski_multiple"
-            android:parentActivityName=".Catalog" />
+            android:parentActivityName=".first.Catalog" />
         <activity
-            android:name=".CatalogSnowboards"
+            android:name=".catalog.CatalogSnowboards"
             android:exported="false"
             android:label="@string/snowboard_single"
-            android:parentActivityName=".Catalog" />
+            android:parentActivityName=".first.Catalog" />
         <activity
-            android:name=".AboutUs"
+            android:name=".first.AboutUs"
             android:exported="false"
             android:label="@string/about_us" />
         <activity
-            android:name=".Liked"
+            android:name=".first.Liked"
             android:exported="false"
             android:label="@string/liked" />
         <activity
-            android:name=".Catalog"
+            android:name=".first.Catalog"
             android:exported="false"
             android:label="@string/catalog" />
         <activity
-            android:name=".Cart"
+            android:name=".first.Cart"
             android:exported="false"
             android:label="@string/cart" />
         <activity
-            android:name=".Preview"
+            android:name=".additional.Preview"
             android:exported="false"
             android:theme="@style/Theme.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".first.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

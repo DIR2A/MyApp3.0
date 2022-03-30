@@ -14,5 +14,6 @@
     <color name="functional_item">#89c2d9</color>
     <color name="menu_search">#66FFFFFF</color>
     <color name="trans">#10FFFFFF</color>
+    <color name="main_bg">#C4E0F2</color>
 
 </resources>

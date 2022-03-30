@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.example.myapp.first;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,27 +7,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.myapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class CatalogClothes extends AppCompatActivity {
+public class Liked extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_catalog_clothes);
+        setContentView(R.layout.activity_liked);
+
+
 
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
-        bottomNavigationView.setSelectedItemId(R.id.catalog);
+        bottomNavigationView.setSelectedItemId(R.id.liked);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.cart:
-                        startActivity(new Intent(getApplicationContext(),Cart.class));
-                        overridePendingTransition(0,0);
+                    case R.id.liked:
                         return true;
 
                     case R.id.catalog:
@@ -35,13 +36,13 @@ public class CatalogClothes extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.mainActivity:
-                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                    case R.id.cart:
+                        startActivity(new Intent(getApplicationContext(),Cart.class));
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.liked:
-                        startActivity(new Intent(getApplicationContext(),Liked.class));
+                    case R.id.mainActivity:
+                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
 
@@ -54,5 +55,4 @@ public class CatalogClothes extends AppCompatActivity {
             }
         });
     }
-
 }

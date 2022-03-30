@@ -5,18 +5,24 @@
       <map>
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/button_style.xml" value="0.184" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_apps_24.xml" value="0.1" />
+        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1105" />
+        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1105" />
+        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1105" />
+        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1105" />
+        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1105" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/main_bg.xml" value="0.1" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/menu_item_selector.xml" value="0.141" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/drawable/search_text_view.xml" value="0.1" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_about_us.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_cart.xml" value="0.1" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_catalog.xml" value="0.22" />
+        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_catalog_accessories.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_catalog_clothes.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_catalog_helmets_masks.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_catalog_ski.xml" value="0.22" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_catalog_snowboards.xml" value="0.22" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_liked.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.3032069970845481" />
+        <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.24588938714499253" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_preview.xml" value="0.22" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/menu/bottom_navigation.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/yango/AndroidStudioProjects/MyApp/app/src/main/res/menu/buttom_navigation.xml" value="0.17552083333333332" />

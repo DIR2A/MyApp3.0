@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Catalog"
-    android:background="@drawable/main_bg">
+    tools:context=".first.Catalog"
+    android:background="@color/main_bg">
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/search_view_catalog"
@@ -62,11 +62,11 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_ski"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_skis_catalog" />
+                        android:contentDescription="@string/ski" />
 
 
                 </RelativeLayout>
@@ -101,11 +101,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/view_snowboard"
+                        android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_snowboards_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -141,11 +142,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/view_clothes"
+                        android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_clothes_catalog" />
+                         />
 
 
                 </RelativeLayout>
@@ -181,11 +183,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_hm"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
-                        android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_helmets_catalog" />
+                        android:contentDescription="@string/helmets_masks"
+                         />
 
 
                 </RelativeLayout>
@@ -221,11 +224,12 @@
                         tools:ignore="RelativeOverlap" />
 
                     <ImageView
+                        android:id="@+id/view_accessories"
                         android:layout_width="170dp"
                         android:layout_height="150dp"
                         android:layout_alignParentEnd="true"
                         android:contentDescription="@string/snowboard_multiple"
-                        android:src="@drawable/ex_accessories_catalog" />
+                         />
 
 
                 </RelativeLayout>

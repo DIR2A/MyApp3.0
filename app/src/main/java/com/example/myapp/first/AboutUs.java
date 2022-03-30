@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.example.myapp.first;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,28 +6,46 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
+import com.example.myapp.additional.Preview;
+import com.example.myapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class CatalogSnowboards extends AppCompatActivity {
+import com.bumptech.glide.Glide;
+
+public class AboutUs extends AppCompatActivity {
+
+    ImageView imageView;
 
     BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_catalog_snowboards);
+        setContentView(R.layout.activity_about_us);
+
+        imageView = findViewById(R.id.about_us_logo);
+
+        String url="https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/logo%2Flogo.png?alt=media&token=cce7a1b9-654b-4b95-bf8d-43d0dcdf93d8";
+
+        Glide.with(getApplicationContext()).load(url).into(imageView);
+
+        imageView.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openPreview();
+            }
+        });
 
         bottomNavigationView = findViewById(R.id.BottomNavigationView);
-        bottomNavigationView.setSelectedItemId(R.id.catalog);
+        bottomNavigationView.setSelectedItemId(R.id.about_us);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.cart:
-                        startActivity(new Intent(getApplicationContext(),Cart.class));
-                        overridePendingTransition(0,0);
+                    case R.id.about_us:
                         return true;
 
                     case R.id.catalog:
@@ -35,8 +53,8 @@ public class CatalogSnowboards extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.mainActivity:
-                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                    case R.id.cart:
+                        startActivity(new Intent(getApplicationContext(),Cart.class));
                         overridePendingTransition(0,0);
                         return true;
 
@@ -45,14 +63,19 @@ public class CatalogSnowboards extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.about_us:
-                        startActivity(new Intent(getApplicationContext(),AboutUs.class));
+                    case R.id.mainActivity:
+                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                 }
                 return false;
             }
         });
+    }
+
+    public void openPreview(){
+        Intent intent = new Intent(this, Preview.class);
+        startActivity(intent);
     }
 
 }

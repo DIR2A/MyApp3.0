@@ -6,20 +6,21 @@
     android:layout_height="fill_parent"
     >
 
-    <View
+    <ImageView
         android:id="@+id/preview_picture"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/preview_bg"
         android:clickable="true"
-        android:focusable="true"/>
+        android:focusable="true"
+        android:contentDescription="@string/picture" />
 
-    <View
-        android:id="@+id/logo"
+    <ImageView
+        android:id="@+id/logo_view"
         android:layout_width="272dp"
         android:layout_height="89dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@drawable/logo" />
+        android:contentDescription="@string/logo" />
 
 </RelativeLayout>

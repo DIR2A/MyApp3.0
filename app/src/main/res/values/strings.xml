@@ -1,6 +1,8 @@
 <resources>
 
     <string name="app_name">SnowPath</string>
+    <string name="logo">Логотип</string>
+    <string name="picture">Заставка</string>
     <string name="main">Главная</string>
     <string name="preview">Превью</string>
     <string name="about_us_description_text">SnowPath</string>
@@ -75,7 +77,7 @@
     <string name="masks_accessories">Аксессуары и запчасти</string>
 
     <!--Каталог Аксессуары-->
-    <string name="accessories_backpack">Рюкзаки</string>
+    <string name="accessories_backpacks">Рюкзаки</string>
     <string name="accessories_bags">Сумки</string>
     <string name="accessories_cases">Чехлы</string>
 

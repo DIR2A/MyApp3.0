@@ -1,16 +1,23 @@
-package com.example.myapp;
+package com.example.myapp.first;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
+import com.example.myapp.R;
+import com.example.myapp.catalog.CatalogAccessories;
+import com.example.myapp.catalog.CatalogClothes;
+import com.example.myapp.catalog.CatalogHelmetsMasks;
+import com.example.myapp.catalog.CatalogSki;
+import com.example.myapp.catalog.CatalogSnowboards;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
     Button buttonTagHelmetsMasks;
     Button buttonTagAccessories;
 
+    ImageButton adsView1;
+    ImageButton adsView2;
+    ImageButton adsView3;
+    ImageButton adsView4;
 
     BottomNavigationView bottomNavigationView;
 
@@ -30,12 +41,38 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonTagSki = (Button) findViewById(R.id.button_tag_ski);
-        buttonTagSnowboard = (Button) findViewById(R.id.button_tag_snowboards);
-        buttonTagCatalog = (Button) findViewById(R.id.button_tag_catalog);
-        buttonTagAccessories = (Button) findViewById(R.id.button_tag_accessories);
-        buttonTagClothes = (Button) findViewById(R.id.button_tag_clothes);
-        buttonTagHelmetsMasks = (Button) findViewById(R.id.button_tag_helmets_masks);
+        buttonTagSki = findViewById(R.id.button_tag_ski);
+        buttonTagSnowboard = findViewById(R.id.button_tag_snowboards);
+        buttonTagCatalog = findViewById(R.id.button_tag_catalog);
+        buttonTagAccessories = findViewById(R.id.button_tag_accessories);
+        buttonTagClothes = findViewById(R.id.button_tag_clothes);
+        buttonTagHelmetsMasks = findViewById(R.id.button_tag_helmets_masks);
+
+        adsView1 = findViewById(R.id.ads1);
+        adsView2 = findViewById(R.id.ads2);
+        adsView3 = findViewById(R.id.ads3);
+        adsView4 = findViewById(R.id.ads4);
+
+        String url1="https://firebasestorage.googleapis.com/v0/b/snowpa" +
+                "th-3c582.appspot.com/o/main_ads%2FadsBase.jpeg?alt=media" +
+                "&token=e15c61e3-7bbc-4e1d-867a-fdc0446aa9ea";
+
+        String url2="https://firebasestorage.googleapis.com/v0/b/snowpath-3c58" +
+                "2.appspot.com/o/main_ads%2FnideckerSnowboards.jpg?alt=media&tok" +
+                "en=8f9b5f19-b41b-409a-b455-5ecb37faf911";
+
+        String url3="https://firebasestorage.googleapis.com/v0/b/snowpath-3" +
+                "c582.appspot.com/o/main_ads%2FadsCapita.jpg?alt=media&token=26" +
+                "abe72e-1118-4070-919f-f75b720e68bd";
+
+        String url4="https://firebasestorage.googleapis.com/v0/b/snowpath-3" +
+                "c582.appspot.com/o/main_ads%2FhmMan.jpeg?alt=media&token=66a" +
+                "56991-47ea-49de-a523-b14bf30a3b6b";
+
+        Glide.with(getApplicationContext()).load(url1).into(adsView1);
+        Glide.with(getApplicationContext()).load(url2).into(adsView2);
+        Glide.with(getApplicationContext()).load(url3).into(adsView3);
+        Glide.with(getApplicationContext()).load(url4).into(adsView4);
 
         buttonTagCatalog.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -64,6 +101,12 @@ public class MainActivity extends AppCompatActivity {
         buttonTagHelmetsMasks.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 openCatalogHelmets();
+            }
+        });
+
+        buttonTagAccessories.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                openCatalogAccessories();
             }
         });
 
@@ -119,6 +162,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openCatalogHelmets(){
         Intent intent = new Intent(this, CatalogHelmetsMasks.class);
+        startActivity(intent);
+    }
+    public void openCatalogAccessories(){
+        Intent intent = new Intent(this, CatalogAccessories.class);
         startActivity(intent);
     }
 

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutUs"
-    android:background="@drawable/main_bg">
+    tools:context=".first.AboutUs"
+    android:background="@color/main_bg">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
                     android:clickable="true"
                     android:contentDescription="@string/snowboard_multiple"
                     android:focusable="true"
-                    android:src="@drawable/logo" />
+                     />
 
                 <TextView
                     android:id="@+id/about_us_description"

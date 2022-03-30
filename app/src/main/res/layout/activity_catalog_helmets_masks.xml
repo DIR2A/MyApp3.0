@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CatalogHelmetsMasks"
-    android:background="@drawable/main_bg">
+    tools:context=".catalog.CatalogHelmetsMasks"
+    android:background="@color/main_bg">
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/search_view_catalog_helmets"
